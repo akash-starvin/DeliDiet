@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/clip_art_person"
+                android:title="View Profile"/>
+        <item
+                android:id="@+id/nav_cart"
+                android:icon="@drawable/ic_shopping_cart_black_24dp"
+                android:title="View Cart"/>
+        <item
+                android:id="@+id/nav_water"
+                android:icon="@drawable/ic_local_drink_black_24dp"
+                android:title="Water Monitor"/>
+        <item
+                android:id="@+id/nav_mini_doc"
+                android:icon="@drawable/ic_local_doc_black_24dp"
+                android:title="Mini docter"/>
+    </group>
+
+    <item android:title="Options">
+        <menu>
+            <item
+                    android:id="@+id/deit_plan"
+                    android:icon="@drawable/ic_menu_black_24dp"
+                    android:title="Deit Plans"/>
+            <item
+                    android:id="@+id/meals_list"
+                    android:icon="@drawable/ic_restaurant_menu_black_24dp"
+                    android:title="Diet Meals"/>
+        </menu>
+    </item>
+
+</menu>
