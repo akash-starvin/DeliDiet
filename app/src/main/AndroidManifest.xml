@@ -11,48 +11,53 @@
             android:roundIcon="@drawable/icon_img"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreen">
+        <activity android:name=".activity.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".CreateAccount"/>
-        <activity android:name=".Profile">
+        <activity android:name=".activity.CreateAccount"
+                android:parentActivityName=".activity.Login"/>
+        <activity android:name=".activity.Profile">
         </activity>
         <activity
-                android:name=".MainPage"
+                android:name=".activity.MainPage"
                 android:label="@string/title_activity_main"
-                android:theme="@style/AppTheme.NoActionBar">
+                android:theme="@style/AppTheme.NoActionBar"
+                android:parentActivityName=".activity.Login">
         </activity>
-        <activity android:name=".Meals">
+        <activity android:name=".activity.Meals">
         </activity>
-        <activity android:name=".DeitPlans">
+        <activity android:name=".activity.DeitPlans">
         </activity>
-        <activity android:name=".ViewAllMeals">
+        <activity android:name=".activity.ViewAllMeals">
         </activity>
-        <activity android:name=".Cart">
+        <activity android:name=".activity.Cart">
         </activity>
-        <activity android:name=".Select">
+        <activity android:name=".activity.Select">
         </activity>
-        <activity android:name=".Payment">
+        <activity android:name=".activity.Payment"
+                android:parentActivityName=".activity.Cart">
         </activity>
-        <activity android:name=".Water">
+        <activity android:name=".activity.Water">
         </activity>
-        <activity android:name=".AddMeal">
+        <activity android:name=".activity.AddMeal"
+                android:parentActivityName=".activity.Login">
         </activity>
-        <activity android:name=".Login">
+        <activity android:name=".activity.Login">
         </activity>
-        <activity android:name=".VerifyPhone">
+        <activity android:name=".activity.VerifyPhone">
         </activity>
-        <activity android:name=".Delivery">
+        <activity android:name=".activity.Delivery">
         </activity>
-        <activity android:name=".MenuMeal">
+        <activity android:name=".activity.MenuMeal">
         </activity>
-        <activity android:name=".ConfirmAddress">
+        <activity android:name=".activity.ConfirmAddress"
+                android:parentActivityName=".activity.Payment">
         </activity>
-        <activity android:name=".MiniDoc">
+        <activity android:name=".activity.MiniDoc">
         </activity>
     </application>
 

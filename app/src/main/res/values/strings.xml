@@ -8,6 +8,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_main">DeliDiet</string>
+    <string name="please_confirm_your_shipping_address">Please confirm your shipping address</string>
 
     <string-array name="medCon">
         <item>None</item>

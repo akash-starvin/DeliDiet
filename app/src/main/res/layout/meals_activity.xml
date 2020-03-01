@@ -1,55 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".Meals" android:orientation="vertical"
-android:background="@drawable/backg">
+        android:background="#121212"
+        android:orientation="vertical"
+        tools:context=".activity.Meals">
 
     <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:id="@+id/tvMealsPackName"
-            android:textStyle="bold" android:textSize="24sp"
-            android:textAlignment="center" android:textColor="#FFFFFF"/>
-    <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" android:id="@+id/rdg">
-        <RadioButton
-                android:text="All"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/rd5" android:layout_weight="1"
-                android:checked="true" android:textColor="#FFFFFF"/>
-        <RadioButton
-                android:text="Breakfast"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/rd1" android:layout_weight="1"
-                android:textColor="#FFFFFF"/>
-        <RadioButton
-                android:text="Lunch"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/rd2" android:layout_weight="1"
-                android:textColor="#FFFFFF"/>
-        <RadioButton
-                android:text="Snack"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/rd3" android:layout_weight="1"
-                android:textColor="#FFFFFF"/>
-        <RadioButton
-                android:text="Dinner"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/rd4" android:layout_weight="1"
-                android:textColor="#FFFFFF"/>
-    </RadioGroup>
-    <ListView
-            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
+    <RadioGroup
+            android:id="@+id/rdg"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <RadioButton
+                android:id="@+id/rd5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="All"
+                android:textColor="#FFFFFF" />
+
+        <RadioButton
+                android:id="@+id/rd1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Breakfast"
+                android:textColor="#FFFFFF" />
+
+        <RadioButton
+                android:id="@+id/rd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Lunch"
+                android:textColor="#FFFFFF" />
+
+        <RadioButton
+                android:id="@+id/rd3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Snack"
+                android:textColor="#FFFFFF" />
+
+        <RadioButton
+                android:id="@+id/rd4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dinner"
+                android:textColor="#FFFFFF" />
+    </RadioGroup>
+
+    <ListView
             android:id="@+id/listviewMeals"
-            android:dividerHeight="30dp"
-            android:scrollbars="vertical"
-            android:padding="30dp"/>
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:dividerHeight="10dp"
+            android:scrollbars="vertical" />
 </LinearLayout>

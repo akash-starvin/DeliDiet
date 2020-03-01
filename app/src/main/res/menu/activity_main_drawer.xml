@@ -7,11 +7,11 @@
         <item
                 android:id="@+id/nav_profile"
                 android:icon="@drawable/clip_art_person"
-                android:title="View Profile"/>
+                android:title="My Profile"/>
         <item
                 android:id="@+id/nav_cart"
                 android:icon="@drawable/ic_shopping_cart_black_24dp"
-                android:title="View Cart"/>
+                android:title="Cart"/>
         <item
                 android:id="@+id/nav_water"
                 android:icon="@drawable/ic_local_drink_black_24dp"
@@ -19,10 +19,14 @@
         <item
                 android:id="@+id/nav_mini_doc"
                 android:icon="@drawable/ic_local_doc_black_24dp"
-                android:title="Mini docter"/>
+                android:title="Mini Docter"/>
+        <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout"/>
     </group>
 
-    <item android:title="Options">
+    <item android:title="Meal Options">
         <menu>
             <item
                     android:id="@+id/deit_plan"

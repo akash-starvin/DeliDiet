@@ -10,66 +10,81 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" tools:srcCompat="@tools:sample/avatars[2]"
             android:id="@+id/imgMPack" android:scaleType="fitXY"/>
+
     <TextView
-            android:text="Pack Name"
+            android:id="@+id/tvMPackName"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/tvMPackName" android:textStyle="bold"
-            android:textSize="24sp"
-            android:padding="10dp" android:textAlignment="center" android:textColor="#000000"/>
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Pack Name" />
+
     <View
             android:id="@+id/divider"
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="?android:attr/listDivider"/>
+            android:layout_height="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="?android:attr/listDivider" />
     <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
                   android:orientation="horizontal">
 
         <TextView
-                android:text="Main Desc"
+                android:id="@+id/tvMMainDesc"
                 android:layout_width="300dp"
-                android:layout_height="wrap_content" android:id="@+id/tvMMainDesc" android:textStyle="bold"
-                android:padding="10dp"
-                android:textAlignment="center" android:textSize="18sp" android:textColor="#000000"/>
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#121212"
+                android:textSize="14sp"
+                tools:text="Main Description" />
+
         <Button
+                android:id="@+id/btnDrop"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/btnDrop" android:layout_weight="1"
-        />
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
     </LinearLayout>
+
     <View
             android:id="@+id/divider2"
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="?android:attr/listDivider"
-    />
+            android:layout_height="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="?android:attr/listDivider" />
+
     <TextView
+            android:id="@+id/tvMPackDesc"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/tvMPackDesc"
-            android:padding="10dp" android:textAlignment="center" android:textColor="#000000"/>
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
     <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="wrap_content"
-            android:layout_height="60dp">
-        <View
-                android:id="@+id/divider8"
-                android:layout_width="20dp"
-                android:layout_height="1dp"
-                android:background="?android:attr/listDivider"
-                android:layout_weight="1"/>
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
         <Button
-                android:text="View Plan"
+                android:id="@+id/btnView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/btnView" android:background="@color/colorBlue"
-                android:textColor="@android:color/white"/>
-        <View
-                android:id="@+id/divider6"
-                android:layout_width="20dp"
-                android:layout_height="1dp"
-                android:background="?android:attr/listDivider"
-                android:layout_weight="1"/>
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:text="View Plan"
+                android:textColor="@android:color/white" />
+
         <Button
-                android:text="Menu"
+                android:id="@+id/btnPackMenu"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/btnPackMenu" android:layout_weight="1"
-                android:background="@color/colorBlue" android:textColor="#FFFFFF"/>
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:text="Menu"
+                android:textColor="#FFFFFF" />
     </LinearLayout>
 </LinearLayout>

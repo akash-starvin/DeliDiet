@@ -5,44 +5,53 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ConfirmAddress">
+        tools:context=".activity.ConfirmAddress">
 
-    <TextView
-            android:text="Please confirm your shipping address"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView18" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="8dp" android:layout_marginTop="16dp" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:textStyle="bold"
-            android:textAlignment="center" android:textSize="18sp"/>
     <android.support.design.widget.TextInputLayout
-            android:layout_width="395dp"
+            android:id="@+id/textInputLayout10"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            app:layout_constraintTop_toBottomOf="@+id/textView18" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="8dp" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
-            android:id="@+id/textInputLayout10">
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
         <android.support.design.widget.TextInputEditText
+                android:id="@+id/etConAd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Address" android:id="@+id/etConAd" android:inputType="text"
-                android:enabled="false"/>
+                android:enabled="false"
+                android:hint="Address"
+                android:inputType="text" />
     </android.support.design.widget.TextInputLayout>
+
     <Button
+            android:id="@+id/btnConEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rounded_button"
             android:text="Edit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/btnConEdit" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="72dp"
-            android:layout_marginTop="44dp" app:layout_constraintTop_toBottomOf="@+id/textInputLayout10"
-            android:background="@color/colorBlue" android:textColor="#FFFFFF"/>
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout10" />
+
     <Button
-            android:text="Confirm"
-            android:layout_width="wrap_content"
+            android:id="@+id/btnConfirm"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/btnConfirm" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
-            app:layout_constraintStart_toEndOf="@+id/btnConEdit" android:layout_marginStart="8dp"
-            android:layout_marginTop="44dp" app:layout_constraintTop_toBottomOf="@+id/textInputLayout10"
-            android:textColor="#FFFFFF" android:background="@color/colorBlue"
-            app:layout_constraintHorizontal_bias="0.656"/>
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rounded_button"
+            android:text="Confirm"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnConEdit" />
 </android.support.constraint.ConstraintLayout>
