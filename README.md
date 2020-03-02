@@ -26,5 +26,7 @@ https://github.com/akash-starvin/DeliDiet/blob/master/Screenshots/mini_doc.mp4
 
 ## Screenshots
 <img src="https://github.com/akash-starvin/DeliDiet/blob/master/Screenshots/splash_screen.jpg" width="290"/> <img src="https://github.com/akash-starvin/DeliDiet/blob/master/Screenshots/login.jpg" width="290"/> <img src="https://github.com/akash-starvin/DeliDiet/blob/master/Screenshots/create_account.jpg" width="290"/> 
+
 <img src="https://github.com/akash-starvin/DeliDiet/blob/master/Screenshots/Screenshot_20200302-205918.jpg" width="290"/> <img src="https://github.com/akash-starvin/DeliDiet/blob/master/Screenshots/add_to_cart.jpg" width="290"/> <img src="https://github.com/akash-starvin/DeliDiet/blob/master/Screenshots/water_monitor.jpg" width="290"/>
+
 <img src="https://github.com/akash-starvin/DeliDiet/blob/master/Screenshots/cart.jpg" width="290"/> <img src="https://github.com/akash-starvin/DeliDiet/blob/master/Screenshots/payment.jpg" width="290"/> <img src="https://github.com/akash-starvin/DeliDiet/blob/master/Screenshots/verify_phone.jpg" width="290"/>
