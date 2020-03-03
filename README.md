@@ -1,6 +1,6 @@
 # DeliDiet
 ## Overview
-This app lets user to browse diet plans and order desired meals periodically just by a click. Users can update thier profile.
+This app lets the user browse diet plans and order desired meals periodically just by a click. Users can update their profile.
 
 ## Functionality
 1. Create account
