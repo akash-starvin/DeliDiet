@@ -6,11 +6,11 @@ This app lets user to browse diet plans and order desired meals periodically jus
 1. Create account
 2. Login into your account
 3. Update your profile (profile picture, age, height, weight, gender, address and medical conditions)
-4. Monitor water intakes every date
-5. Mini Doc - Question and Answers for some of the questions
+4. Monitor water intakes every day
+5. Mini Doc - Question and answers for some of the questions
 6. Browse Diet plans 
-7. Browse all meals.
-8. Add any meal to cart or delete from cart
+7. Browse all meals
+8. Add any meal to cart or Delete from cart
 9. Select the number of meals that you wanna get delivered periodically
 10. Add card details or opt for cash on delivery
 11. Admin can log in this app and upload new meals.
